@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Calculadora Simples</h2>
+    </header>
+    <section>
+        <div class="calculadora">
+                <input type="text" class="display" id="display" disabled>
+        </div>
+        <div class="buttons">
+            <input type="button" value="CE" id="delult" onclick="deleteult()">
+            <input type="button" value="C" id="C" onclick="reiniciar()">
+            <input type="button" value="<<" id="deln" onclick="deletenum()">
+            <input type="button" value=" / " id="dv" onclick="appendValue('/')"><br>
+            <input type="button" value=" 7 " id="sete" onclick="appendValue('7')">
+            <input type="button" value=" 8 " id="oito" onclick="appendValue('8')">
+            <input type="button" value=" 9 " id="nove" onclick="appendValue('9')">
+            <input type="button" value=" X" id="mult" onclick="appendValue('*')">
+            <input type="button" value=" 4 " id="quatro" onclick="appendValue('4')">
+            <input type="button" value=" 5 " id="cinco" onclick="appendValue('5')">
+            <input type="button" value=" 6 " id="seis" onclick="appendValue('6')">
+            <input type="button" value=" - " id="sub" onclick="appendValue('-')"><br>
+            <input type="button" value=" 1 " id="um" onclick="appendValue('1')">
+            <input type="button" value=" 2 " id="dois" onclick="appendValue('2')">
+            <input type="button" value=" 3 " id="tres" onclick="appendValue('3')">
+            <input type="button" value=" +" id="som" onclick="appendValue('+')"><br>
+            <input type="button" value=" !  " id="neg" onclick="invertersinal()">
+            <input type="button" value="  0 " id="zero" onclick="appendValue('0')">
+            <input type="button" value=" ,  " id="virg" onclick="appendValue('.')">
+            <input type="button" value="=" id="res" onclick="calcular()">
+        </div>
+        <div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

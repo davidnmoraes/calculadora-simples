@@ -1,0 +1,57 @@
+body {
+    background: rgb(0, 0, 0);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+div#tela {
+    text-align: right;
+    font-size: small;
+}
+
+section {
+    background: rgb(84, 84, 84);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 150px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);  
+}
+
+section#tela {
+    background: rgb(44, 44, 44);
+    width: 150px;
+    margin: auto;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+h1#resultado {
+    text-align: right;
+}
+
+input {
+    background: gray;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+input#res {
+    background: rgb(255, 170, 0);
+    color:black
+}
+
+input#display {
+    width: 145px;
+    color: orange;
+}
